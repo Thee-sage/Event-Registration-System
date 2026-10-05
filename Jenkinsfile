@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Thee-sage/Flask-User-Registration.git'
+                    url: 'https://github.com/Thee-sage/Event-Registration-System.git'
             }
         }
 
