@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg, #4f46e5, #7c3aed 55%, #db2777);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:24px;
+    color:#1e1b4b;
+}
+
+.container{
+    width:100%;
+    max-width:460px;
+    background:#ffffff;
+    padding:44px 40px;
+    border-radius:20px;
+    border-top:6px solid #7c3aed;
+    box-shadow:0 20px 50px rgba(30,27,75,0.35);
+}
+
+h1,
+h2{
+    text-align:center;
+    margin-bottom:28px;
+    font-size:26px;
+    background:linear-gradient(90deg, #4f46e5, #db2777);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    color:#4f46e5;
+}
+
+label{
+    display:block;
+    margin-top:18px;
+    margin-bottom:6px;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.3px;
+    color:#4338ca;
+}
+
+input,
+select{
+    width:100%;
+    padding:13px 14px;
+    border:2px solid #e0e7ff;
+    border-radius:10px;
+    font-size:15px;
+    color:#1e1b4b;
+    background:#f5f3ff;
+    transition:0.25s;
+}
+
+select{
+    appearance:none;
+    -webkit-appearance:none;
+    cursor:pointer;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%237c3aed' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat:no-repeat;
+    background-position:right 14px center;
+    padding-right:40px;
+}
+
+input::placeholder{
+    color:#a5a3c9;
+}
+
+input:focus,
+select:focus{
+    border-color:#7c3aed;
+    background:#ffffff;
+    outline:none;
+    box-shadow:0 0 0 4px rgba(124,58,237,0.18);
+}
+
+button{
+    width:100%;
+    margin-top:30px;
+    padding:14px;
+    background:linear-gradient(90deg, #4f46e5, #7c3aed);
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.25s;
+    box-shadow:0 6px 16px rgba(79,70,229,0.4);
+}
+
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 22px rgba(79,70,229,0.5);
+}
+
+button:active{
+    transform:translateY(0);
+}
+
+/* Success page paragraph */
+.container p{
+    background:#f5f3ff;
+    padding:12px 14px;
+    margin:10px 0;
+    border-left:4px solid #7c3aed;
+    border-radius:8px;
+    font-size:16px;
+    color:#312e81;
+}
+
+.container p strong{
+    color:#4f46e5;
+}
+
+/* Register Again button */
+.btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    margin-top:26px;
+    padding:13px;
+    background:linear-gradient(90deg, #4f46e5, #7c3aed);
+    color:white;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    transition:0.25s;
+    box-shadow:0 6px 16px rgba(79,70,229,0.4);
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 22px rgba(79,70,229,0.5);
+}
